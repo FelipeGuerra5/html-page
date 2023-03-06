@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB - ADS</title>
+  <link rel="stylesheet" type="text/css" href="siteFundWeb.css">
+</head>
+<body>
+<my-header></my-header>
+<div style="overflow:auto">
+  <my-menu></my-menu>
+        <div class="main">
+          <h2>Fale Conosco</h2>
+          <form action="" method="get">
+
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Primeiro Nome" required><br>
+
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Último Sobrenome"><br>
+
+            <label for="e-mail">e-mail:</label><br>
+            <input type="text" id="e-mail" name="e-mail" placeholder="Seu melhor e-mail" required><br>
+            
+            <label for="sexo">Sexo:</label><br>
+            
+            <table>
+              <tr>
+                <td>
+                  <input type="radio" id="masc" name="masc">
+                  <label for="masc">M</label><br>
+                </td>
+                <td>
+                  <input type="radio" id="fem" name="fem">
+                  <label for="fem">F</label><br>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" id="duvida" name="duvida">
+                  <label for="duvida">Dúvida</label>
+                </td>
+                <td>
+                  <input type="radio" id="sugst" name="sugst">
+                  <label for="sugst">Sugestão</label>
+                </td>
+                <td>
+                  <input type="radio" id="agrad" name="agrad">
+                  <label for="agrad">Agradecimento</label>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <label for="msg">Digite Seu texto aqui:</label><br>
+                  <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3">
+                  <input type="checkbox" id="prom" name="prom" checked>
+                  <label for="prom">Aceito receber e-mail promocional</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="reset" value="Limpar">
+                </td>
+                <td>
+                  <button type="submit" href="faleConosco.html" onclick="formEnviado()" >Submit</button>
+                  <script src="main.js">
+                   
+                    </script>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <my-info></my-info>
+      </div>
+    <my-footer></my-footer>
+  <script src="main.js"></script>
+</body>
+</html>

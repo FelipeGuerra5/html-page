@@ -38,8 +38,8 @@ class MyInfo extends HTMLElement {
 }
 
 var nome = "Felipe Baldim Guerra"
-var github = "github.com/FelipeGuerra5"
-var linkedin = "@Felipe_Baldim_Guerra"
+var github = "GitHub"
+var linkedin = "LinkedIn"
 var loc = "Polo - Luz"
 var sexo = "Masculino"
 
@@ -49,10 +49,8 @@ class MyFooter extends HTMLElement {
         <footer>Web sobre Web&reg;
         <ul>
             <li>${nome}</li>
-            <li>${github}</li>
-            <li>${linkedin}</li>
-            <li>${loc}</li>
-            <li>${sexo}</li>
+            <li>${github}<a href="https://github.com/FelipeGuerra5"/></li>
+            <li>${linkedin}<a href="https://www.linkedin.com/in/felipe-baldim-guerra-858556127/"/></li>
         </ul>
         </footer>`
     }

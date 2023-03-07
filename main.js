@@ -14,8 +14,8 @@ class MyMenu extends HTMLElement {
         this.innerHTML=`
         <div class="menu">
             <a href="index.html">Home</a>
-            <a href="pages/contatos.html">Contato</a>
-            <a href="pages/faleConosco.html">Fale Conosco</a>
+            <a href="contatos.html">Contato</a>
+            <a href="faleConosco.html">Fale Conosco</a>
         </div>
         `
     }

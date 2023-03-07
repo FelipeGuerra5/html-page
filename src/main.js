@@ -13,9 +13,9 @@ class MyMenu extends HTMLElement {
     connectedCallback() {
         this.innerHTML=`
         <div class="menu">
-            <a href="src/index.html">Home</a>
-            <a href="scr/contatos.html">Contato</a>
-            <a href="src/faleConosco.html">Fale Conosco</a>
+            <a href="index.html">Home</a>
+            <a href="pages/contatos.html">Contato</a>
+            <a href="pages/faleConosco.html">Fale Conosco</a>
         </div>
         `
     }
